@@ -113,7 +113,7 @@ themes = {
     graph_lo = '1C1408', graph_hi = '8090D8',
   },
   
-    harbor = {
+  harbor = {
     -- Warm copper accent on deep navy. Complementary contrast.
     -- Designed for wallpapers around #294d6d / #152f46.
     default_color         = 'A8B8C8',
@@ -169,5 +169,44 @@ themes = {
     color6 = 'B4D455',  -- arch green    · ok / connected
     graph_lo = '2A3439', graph_hi = '1793D1',
   },
+  
+  grove = {
+    -- Muted lime accent on near-black charcoal.
+    -- Designed for wallpapers around #252525.
+    default_color         = '90A880',
+    default_shade_color   = '080808',
+    draw_shades           = true,
+    shade_depth           = 3,
+    default_outline_color = '0C0C08',
+    draw_outline          = true,
+    outline_depth         = 1,
+    color1 = 'EEEEE4',  -- warm white · values
+    color2 = '789060',  -- muted lime · labels
+    color3 = '303028',  -- dark warm  · dividers / bars
+    color4 = '96C860',  -- lime       · section headers  ★
+    color5 = 'E8A050',  -- amber      · temp / heat
+    color6 = '58C878',  -- green      · ok / connected
+    graph_lo = '181810', graph_hi = '96C860',
+  },
 
+  terracotta = {
+    -- Warm clay accent on neutral charcoal.
+    -- Designed for wallpapers around #242424 / #5f5f5f.
+    default_color         = 'A09088',
+    default_shade_color   = '080604',
+    draw_shades           = true,
+    shade_depth           = 3,
+    default_outline_color = '100C08',
+    draw_outline          = true,
+    outline_depth         = 1,
+    color1 = 'F0ECE8',  -- warm white  · values
+    color2 = 'A09088',  -- warm grey   · labels
+    color3 = '2C2420',  -- dark warm   · dividers / bars
+    color4 = 'D4735A',  -- terracotta  · section headers  ★
+    color5 = 'E8B840',  -- gold        · temp / heat
+    color6 = '68C890',  -- mint        · ok / connected
+    graph_lo = '1C1410', graph_hi = 'D4735A',
+  },
+  
+  
 }
